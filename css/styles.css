@@ -49,7 +49,7 @@ ol {
 
 .header-list {
   display: flex;
-   gap: 40px;
+  gap: 40px;
 }
 
 .header .container {
@@ -60,7 +60,6 @@ ol {
   padding-right: 156px;
 }
 .logo-header {
-  
   color: var(--iris);
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -89,108 +88,107 @@ ol {
 }
 .contact {
   margin-left: auto;
- 
 }
 .contact-list {
   display: flex;
-   gap: 40px;
- }
-
-  .contact-link {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
-  }
-
-  .contact-link:hover,
-  .contact-link:focus {
-    color: var(--ocean);
-  }
-
-  /*?----------------------------HERO --------------------------*/
-
-  .hero {
-    background-color: var(--navyblue, #2e2f42);
-    text-align: center;
-  }
-
-  .hero .container {
-    padding-top: 188px;
-    padding-bottom: 188px;
-  }
-  .hero-title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 48px;
-    width: 496px;
-    color: var(--white);
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07; /* 107.143% */
-    letter-spacing: 0.02em;
-  }
-  .btn {
-    padding: 16px 32px;
-
-    color: var(--white);
-    background-color: var(--iris);
-    font-family: inherit;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.04em;
-    cursor: pointer;
-  }
-
-  .btn:hover,
-  .btn:focus {
-    background-color: var(--ocean);
-  }
-  /**----------------------------SECTION 1--------------------------*/
-  .advantages .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-  .advantages-subtitle {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2; /* 120% */
-    letter-spacing: 0.02em;
-  }
-  .advantages-text {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
-  }
-  /*!----------------------------SECTION 2--------------------------*/
-
-  .service-text {
-    margin-bottom: 72px;
-    color: #2e2f42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; /* 111.111% */
-    letter-spacing: 0.02rem;
-    text-transform: capitalize;
-  }
-  .service-list {
-    padding-bottom: 120px;
-  }
-  /*?----------------------------SECTION 3--------------------------*/
-  .team {
-    background-color: var(--cloud);
-  }
-  .team .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
+  gap: 40px;
 }
+
+.contact-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+/*?----------------------------HERO --------------------------*/
+
+.hero {
+  background-color: var(--navyblue, #2e2f42);
+  text-align: center;
+}
+
+.hero .container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  width: 496px;
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.btn {
+  padding: 16px 32px;
+
+  color: var(--white);
+  background-color: var(--iris);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean);
+}
+/**----------------------------SECTION 1--------------------------*/
+.advantages .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.advantages-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.advantages-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*!----------------------------SECTION 2--------------------------*/
+
+.service-text {
+  margin-bottom: 72px;
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02rem;
+  text-transform: capitalize;
+}
+.service-list {
+  padding-bottom: 120px;
+}
+/*?----------------------------SECTION 3--------------------------*/
+.team {
+  background-color: var(--cloud);
+}
+.team .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-item {
   background-color: var(--white);
 }
