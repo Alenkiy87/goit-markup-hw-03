@@ -49,14 +49,19 @@ ol {
 
 .header-list {
   display: flex;
+   gap: 40px;
 }
+
 .header .container {
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 .logo-header {
+  
   color: var(--iris);
-
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: 800;
@@ -65,6 +70,7 @@ ol {
   text-transform: uppercase;
 }
 .header-navigation {
+  gap: 76px;
   display: flex;
 }
 .logo-header .studio {
@@ -81,9 +87,14 @@ ol {
 .header-link:focus {
   color: var(--ocean);
 }
+.contact {
+  margin-left: auto;
+ 
+}
 .contact-list {
   display: flex;
-}
+   gap: 40px;
+ }
 
   .contact-link {
     color: #434455;
