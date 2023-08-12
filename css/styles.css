@@ -5,7 +5,7 @@
   --white: #fff;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
-  --cornflower: #E7E9FC;
+  --cornflower: #e7e9fc;
 }
 /*? reset start */
 body {
@@ -68,6 +68,7 @@ ol {
 
 .header .container {
   display: flex;
+  align-items: center;
 }
 .logo-header {
   color: var(--iris);
@@ -86,8 +87,8 @@ ol {
 .logo-header .studio {
   color: #2e2f42;
 }
-
-.header-item {
+.header-navigation .header-link {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -109,7 +110,8 @@ ol {
   display: flex;
   gap: 40px;
 }
-.contact-item {
+
+.contact-item .link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -314,9 +316,9 @@ ol {
 .portfolio-link {
   display: block;
 }
-.portfolio-item.btn {
+/* .portfolio-item.btn {
   border: 1px solid var(--cornflower);
-}
+} */
 .potrfolio-it .portfolio-item.btn {
   color: var(--iris);
   background-color: var(--cloud);
@@ -329,6 +331,7 @@ ol {
   border: none;
   border-radius: 4px;
   align-items: center;
+  border: 1px solid var(--cornflower);
 }
 
 .portfolio-item.btn:hover,
