@@ -19,7 +19,10 @@ address {
   text-decoration: none;
 }
 .list {
-  list-style-type: none;
+  /* list-style-type: none; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 p,
 h1,
@@ -43,7 +46,9 @@ ol {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* outline: 1px solid red; */
 }
 /*!----------------------------HEADER --------------------------*/
 
@@ -56,6 +61,7 @@ ol {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
 .logo-header {
   color: var(--iris);
@@ -129,7 +135,6 @@ ol {
 }
 .btn {
   padding: 16px 32px;
-
   color: var(--white);
   background-color: var(--iris);
   font-family: inherit;
@@ -139,6 +144,7 @@ ol {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: none;
 }
 
 .btn:hover,
@@ -149,6 +155,23 @@ ol {
 .advantages .container {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-subtitle {
   color: #2e2f42;
@@ -177,6 +200,8 @@ ol {
 }
 .service-list {
   padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
 }
 /*?----------------------------SECTION 3--------------------------*/
 .team {
@@ -186,7 +211,10 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-item {
   background-color: var(--white);
 }
@@ -250,7 +278,13 @@ ol {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio-item.btn {
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.potrfolio-it .portfolio-item.btn {
   color: var(--iris);
   background-color: var(--cloud);
   letter-spacing: 0.04em;
@@ -259,6 +293,9 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   padding: 12px 24px;
+  border: none;
+
+  align-items: center;
 }
 
 .portfolio-item.btn:hover,
@@ -273,13 +310,21 @@ ol {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  margin-bottom: 16px;
 }
 .portfolio-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
-.portfolio-menu {
+.portfolio-menu.list {
   margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  /* column-gap: 24px;
+  row-gap: 48px; */
 }
